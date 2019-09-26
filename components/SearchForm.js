@@ -25,7 +25,7 @@ const SearchForm = (props) => {
 				type="search"
 				onChange={e => setSearchText(e.target.value)}
 				name="search"
-				placeholder="Search..."
+				placeholder={searchText}
 			/>
 			<button type="submit" id="submit" className="search-button">
 				<i className="material-icons icn-search">search</i>
