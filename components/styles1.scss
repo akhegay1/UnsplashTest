@@ -1,0 +1,16 @@
+@import "../pages/index.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  $mainBlack: #222;
+  $mainGreen: #82b340;
+  $mainGrey: #ececec;
+
+  body {
+    background-color: $mainGrey;
+    color: $mainGreen;
+  }
