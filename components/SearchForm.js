@@ -31,7 +31,7 @@ const SearchForm = (props) => {
 				<i className="material-icons icn-search">search</i>
 			</button>
 			<button id="clr"  onClick={e =>  handleClick(e) } >
-				<i className="material-icons icn-search">clear</i>
+				<i className="material-icons icn-search">begin</i>
 			</button>
 		</form>
 		</SearchContext.Provider>

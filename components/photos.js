@@ -60,7 +60,7 @@ class Photos extends Component {
 
 
   componentDidMount() {
-    this.fetchPhotos(this.state.currentPage);
+    //this.fetchPhotos(this.state.currentPage);
   }
 
 
