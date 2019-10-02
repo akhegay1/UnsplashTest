@@ -60,8 +60,8 @@ class Photos extends Component {
 
 
   componentDidMount() {
-    //this.setState({ loadState: LOAD_STATE.SUCCESS });
-    this.fetchPhotos(this.state.currentPage);
+    this.setState({ loadState: LOAD_STATE.SUCCESS });
+    //this.fetchPhotos(this.state.currentPage);
   }
 
 
