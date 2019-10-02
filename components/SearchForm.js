@@ -3,7 +3,7 @@ import React, { useState, useContext } from 'react';
 const SearchContext = React.createContext()
 
 const SearchForm = (props) => {
-	const [searchText, setSearchText] = useState('car')
+	const [searchText, setSearchText] = useState('')
 
 	const handleSubmit = e => {
 		e.preventDefault();
